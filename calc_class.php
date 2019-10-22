@@ -1,6 +1,7 @@
 <?php
     class Calculator {
         public $action, $number1, $number2;
+        private $test = '<li>test';
 
         public function __construct($action,$number1,$number2) {
             $this->action = $action;
@@ -25,6 +26,10 @@
                 break;
             }
             echo $result;
+        }
+
+        public function getTest() {
+            return $this->test;
         }
     }
 ?>

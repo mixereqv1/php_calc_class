@@ -10,4 +10,6 @@
     $app = new Calculator($action,$number1,$number2);
     $app->count();
 
+    echo $app->getTest();
+
 ?>
